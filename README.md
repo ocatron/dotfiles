@@ -2,8 +2,14 @@
 
 Ocatron's dotfiles, managed with [`chezmoi`](https://github.com/twpayne/chezmoi).
 
-Install chezmoi and dotfiles with a single command:
+### Linux/macOS
+```shell
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply ocatron
+```
+
+### Windows
+Run on PowerShell version 5.1 or later
 
 ```shell
-    sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply ocatron
+iex "&{$(irm 'https://get.chezmoi.io/ps1')} -- init --apply ocatron"
 ```
