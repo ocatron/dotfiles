@@ -65,10 +65,15 @@ bar:
 
 workspaces:
   - name: "1"
+    # Terminal
   - name: "2"
+    # Apps
   - name: "3"
+    # Previews
   - name: "4"
+    # Browser
   - name: "5"
+    # Work Comms
   - name: "6"
   - name: "7"
   - name: "8"
@@ -98,13 +103,13 @@ window_rules:
   - commands: ["move to workspace 1", "focus workspace 1"]
     match_process_name: "wezterm-gui"
 
-  # Move chrome to workspace 3
-  - commands: ["move to workspace 3", "focus workspace 3"]
+  # Move chrome to workspace 4
+  - commands: ["move to workspace 4", "focus workspace 4"]
     match_process_name: "chrome"
     match_class_name: "Chrome_WidgetWin_1"
 
-  # Move work related apps to workspace 6
-  - commands: ["move to workspace 6", "focus workspace 6"]
+  # Move work related apps to workspace 5
+  - commands: ["move to workspace 5", "focus workspace 5"]
     match_process_name: "ms-teams"
 
 binding_modes:
