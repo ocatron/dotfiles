@@ -9,11 +9,11 @@ return {
       },
       color_overrides = {
         mocha = {
-          surface2 = '#3A3C4A',
-          surface1 = '#272934',
-          surface0 = '#1A1A23',
-          base = '#0C0C13',
-          mantle = '#08080D',
+          surface2 = '#4F4F5F',
+          surface1 = '#282836',
+          surface0 = '#15151F',
+          base = '#0B0B12',
+          mantle = '#06060A',
           crust = '#020203',
         },
       },
