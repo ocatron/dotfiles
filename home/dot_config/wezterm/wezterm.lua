@@ -15,6 +15,7 @@ return {
   },
   leader = { key = 'w', mods = 'ALT' },
   keys = {
+    { key = 'l', mods = 'LEADER', action = wezterm.action.ShowLauncher },
     { key = 'm', mods = 'LEADER', action = wezterm.action.ToggleFullScreen },
     { key = '[', mods = 'LEADER', action = wezterm.action.ActivateCopyMode },
     { key = '-', mods = 'LEADER', action = wezterm.action { SplitVertical = { domain = 'CurrentPaneDomain' } } },
